@@ -29,6 +29,7 @@
     line-height: 1.6;
   }
 
+  /* ── NAV ── */
   nav {
     position: fixed; top: 0; left: 0; width: 100%;
     background: var(--black);
@@ -70,6 +71,7 @@
   }
   .nav-cta:hover { background: var(--green-light); }
 
+  /* ── HERO ── */
   .hero {
     min-height: 100vh;
     background: linear-gradient(135deg, #0e1a0e 0%, #1a2e1a 60%, #0e1a0e 100%);
@@ -173,6 +175,7 @@
   }
   .btn-secondary:hover { border-color: var(--white); background: rgba(255,255,255,.05); }
 
+  /* ── STRIP ── */
   .strip {
     background: var(--green);
     color: var(--white);
@@ -184,6 +187,7 @@
   }
   .strip a { color: var(--yellow); text-decoration: none; }
 
+  /* ── SECTION WRAPPER ── */
   section { padding: 80px 5vw; }
   .section-label {
     font-size: .75rem;
@@ -207,6 +211,7 @@
     font-size: .97rem;
   }
 
+  /* ── WHY US ── */
   #why { background: var(--gray); }
   .why-grid {
     display: grid;
@@ -231,6 +236,7 @@
   }
   .why-card p { font-size: .87rem; color: var(--text-muted); }
 
+  /* ── FLEET ── */
   #fleet { background: var(--white); }
   .fleet-grid {
     display: grid;
@@ -298,6 +304,7 @@
   }
   .btn-book:hover { background: var(--green-light); }
 
+  /* ── HOW IT WORKS ── */
   #how { background: var(--black); color: var(--white); }
   #how h2 { color: var(--white); }
   #how .section-label { color: var(--yellow); }
@@ -330,6 +337,7 @@
   }
   .step p { font-size: .87rem; color: #aaa; }
 
+  /* ── TESTIMONIALS ── */
   #reviews { background: var(--gray); }
   .reviews-grid {
     display: grid;
@@ -348,6 +356,7 @@
   .reviewer { font-weight: 600; font-size: .85rem; }
   .reviewer span { color: var(--text-muted); font-weight: 400; }
 
+  /* ── CONTACT ── */
   #contact { background: var(--white); }
   .contact-grid {
     display: grid;
@@ -408,6 +417,7 @@
   }
   .btn-submit:hover { background: var(--green-light); }
 
+  /* ── FOOTER ── */
   footer {
     background: var(--black);
     color: #aaa;
@@ -459,6 +469,7 @@
   }
   .social-links a:hover { border-color: var(--green); color: var(--green); }
 
+  /* ── WHATSAPP FAB ── */
   .whatsapp-fab {
     position: fixed;
     bottom: 24px; right: 24px;
@@ -474,6 +485,7 @@
   }
   .whatsapp-fab:hover { transform: scale(1.1); }
 
+  /* ── RESPONSIVE ── */
   @media(max-width: 768px) {
     .nav-links { display: none; }
     .contact-grid, .footer-top { grid-template-columns: 1fr; gap: 2rem; }
@@ -483,6 +495,7 @@
 </head>
 <body>
 
+<!-- NAV -->
 <nav>
   <div class="nav-logo">next <span>m</span>iles</div>
   <ul class="nav-links">
@@ -495,12 +508,13 @@
   <a href="tel:7090701015" class="nav-cta">📞 7090701015</a>
 </nav>
 
+<!-- HERO -->
 <section class="hero" id="home">
   <div class="hero-tag">Self Drive Cars · Hulimavu, Bangalore</div>
   <h1>Explore Bangalore<em>Your Way!</em></h1>
-  <p class="hero-sub">Premium self-drive cars delivered to your doorstep. Kilometre packages, zero hidden fees, round-the-clock support.</p>
+  <p class="hero-sub">Premium self-drive cars delivered to your doorstep. Unlimited kilometres, zero hidden fees, round-the-clock support.</p>
   <div class="hero-badges">
-    <div class="badge"><div class="dot"></div> Kilometre Packages</div>
+    <div class="badge"><div class="dot"></div> Kilometer Packages </div>
     <div class="badge"><div class="dot"></div> Doorstep Delivery</div>
     <div class="badge"><div class="dot"></div> Affordable Rates</div>
     <div class="badge"><div class="dot"></div> 24/7 Support</div>
@@ -511,10 +525,12 @@
   </div>
 </section>
 
+<!-- STRIP -->
 <div class="strip">
   📍 Serving Hulimavu & all of Bangalore &nbsp;|&nbsp; Call us: <a href="tel:7090701015">7090701015</a> &nbsp;|&nbsp; 24/7 Pickup & Drop Available @ Additional Cost
 </div>
 
+<!-- WHY US -->
 <section id="why">
   <div class="section-label">Why Choose Us</div>
   <h2>Comfort. Convenience.<br>Value.</h2>
@@ -553,6 +569,7 @@
   </div>
 </section>
 
+<!-- FLEET -->
 <section id="fleet">
   <div class="section-label">Our Fleet</div>
   <h2>Pick Your Ride</h2>
@@ -606,6 +623,7 @@
   </div>
 </section>
 
+<!-- HOW IT WORKS -->
 <section id="how">
   <div class="section-label">Process</div>
   <h2>How It Works</h2>
@@ -624,11 +642,12 @@
     </div>
     <div class="step">
       <h3>Drive Free</h3>
-      <p>Explore Bangalore and beyond with your kilometre package and 24/7 backup.</p>
+      <p>Explore Bangalore and beyond with unlimited kilometres and 24/7 backup.</p>
     </div>
   </div>
 </section>
 
+<!-- REVIEWS -->
 <section id="reviews">
   <div class="section-label">Customer Reviews</div>
   <h2>What People Say</h2>
@@ -640,7 +659,7 @@
     </div>
     <div class="review-card">
       <div class="stars">★★★★★</div>
-      <p class="review-text">"Best self-drive service in South Bangalore. No hidden charges, great km packages — exactly what they promise."</p>
+      <p class="review-text">"Best self-drive service in South Bangalore. No hidden charges, unlimited kms — exactly what they promise."</p>
       <div class="reviewer">Priya S. <span>— BTM Layout</span></div>
     </div>
     <div class="review-card">
@@ -651,6 +670,7 @@
   </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
   <div class="section-label">Get In Touch</div>
   <h2>Book Your Car Today</h2>
@@ -661,7 +681,7 @@
         <div class="info-icon">📞</div>
         <div class="info-text">
           <strong>Call / WhatsApp</strong>
-          <span><a href="tel:7090701015">7090701015</a> / <a href="tel:6382762542">6382762542</a></span>
+          <span><a href="tel:7090701015">7090701015</a></span>
         </div>
       </div>
       <div class="info-row">
@@ -682,18 +702,18 @@
         <div class="info-icon">🚗</div>
         <div class="info-text">
           <strong>Service Area</strong>
-          <span>Hulimavu, HSR Layout, BTM Layout, JP Nagar, Electronic City & all Bangalore</span>
+          <span>Hulimavu,HSR Layout, BTM Layout, JP Nagar, Electronic City & all Bangalore</span>
         </div>
       </div>
     </div>
 
     <div>
-      <form class="contact-form" action="https://formspree.io/f/mrevjrww" method="POST">
+      <div class="contact-form">
         <div class="form-row">
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="tel" name="phone" placeholder="Phone Number" required />
+          <input type="text" placeholder="Your Name" />
+          <input type="tel" placeholder="Phone Number" />
         </div>
-        <select name="car">
+        <select>
           <option value="">Select a Car</option>
           <option>Maruti Baleno</option>
           <option>Toyota Glanza</option>
@@ -701,23 +721,22 @@
           <option>Other / Call Me</option>
         </select>
         <div class="form-row">
-          <input type="date" name="pickup_date" />
-          <input type="date" name="return_date" />
+          <input type="date" />
+          <input type="date" />
         </div>
-        <textarea name="message" placeholder="Any special requirements or questions?"></textarea>
-        <input type="hidden" name="_subject" value="New Car Booking Enquiry – Next Miles" />
-        <input type="hidden" name="_next" value="https://ranjith-vp.github.io/nextmilesd" />
-        <button type="submit" class="btn-submit">Send Enquiry →</button>
-      </form>
+        <textarea placeholder="Any special requirements or questions?"></textarea>
+        <button class="btn-submit" onclick="alert('Thank you! We will call you shortly. Or call us directly at 7090701015.')">Send Enquiry →</button>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer>
   <div class="footer-top">
     <div class="footer-brand">
       <div class="footer-logo">next <span>m</span>iles</div>
-      <p>Self Drive Cars in Hulimavu, Bangalore. Kilometre packages, doorstep delivery, and 24/7 support — explore the city entirely on your terms.</p>
+      <p>Self Drive Cars in Hulimavu, Bangalore. kilometres Packages, doorstep delivery, and 24/7 support — explore the city entirely on your terms.</p>
     </div>
     <div class="footer-col">
       <h4>Quick Links</h4>
@@ -733,7 +752,6 @@
       <h4>Contact</h4>
       <ul>
         <li><a href="tel:7090701015">📞 7090701015</a></li>
-        <li><a href="tel:6382762542">📞 6382762542</a></li>
         <li><a href="https://wa.me/917090701015">💬 WhatsApp</a></li>
         <li><a href="#contact">📍 Hulimavu, Bangalore</a></li>
         <li><a href="#contact">🕐 24 / 7 Open</a></li>
@@ -750,6 +768,7 @@
   </div>
 </footer>
 
+<!-- WhatsApp FAB -->
 <a href="https://wa.me/917090701015" class="whatsapp-fab" title="Chat on WhatsApp">💬</a>
 
 </body>
